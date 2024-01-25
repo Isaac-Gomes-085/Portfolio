@@ -449,7 +449,7 @@ ul .lista::before {
     padding: 10px 0;
 }
 .card:hover h2 {
-    inset: auto auto 340px 30px;
+    inset: auto auto 300px 30px;
     inset: auto auto 240px 30px;
     transition: inset .3s ease-out;
 }
