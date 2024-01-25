@@ -401,6 +401,7 @@ ul .lista::before {
 .card {
   width: 24rem;
   height: 38rem;
+  height: 36rem;
   border-radius: 10px;
   overflow: hidden;
   cursor: pointer;
@@ -434,13 +435,13 @@ ul .lista::before {
     position: absolute;
     opacity: 0;
     max-width: 100%;
+    max-width: 80%;
     transition: opacity .3s ease-out;
 }
 .card p {
     inset: auto auto 38px 30px;
     padding-right: 10px;
     text-wrap: 50px;
-    
 }
 .card .link-card {
     inset: auto auto 0px 30px;
@@ -449,6 +450,7 @@ ul .lista::before {
 }
 .card:hover h2 {
     inset: auto auto 300px 30px;
+    inset: auto auto 240px 30px;
     transition: inset .3s ease-out;
 }
 .card:hover p,
@@ -514,6 +516,7 @@ ul .lista::before {
     background-repeat: no-repeat;
     padding: 10px;
     width: 320px;
+    border-radius: 10px;
 }
 
 .informacao {
@@ -606,7 +609,6 @@ ul .lista::before {
 h3 {
     text-decoration: underline;
 }
-
 /* ability */
 
 .ability {
