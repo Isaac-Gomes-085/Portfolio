@@ -933,3 +933,14 @@ h3 {
 .show {
     opacity: 1;
 }
+
+@media (max-width:300px) {
+    .nav_midias ul{
+        display: block;
+        justify-content: space-evenly;
+        bottom: 1.8em;
+        width: 250px;
+        font-size: 25px;
+        right: 15px;
+    }
+}
